@@ -73,9 +73,22 @@ body {
   }
 
   pre{
-    color: red;
+    color: white;
+    position:absolute;
+    margin: auto;
   }
-     
+
+  #thankyou{
+    height: 70%;
+    width: 700px;
+    position: relative;
+    top: 15%;
+    margin: auto;
+    border: red 2px;
+    overflow: scroll;
+    z-index: -1;
+  
+}
       
       
       
