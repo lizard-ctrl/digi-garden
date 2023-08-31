@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    overflow: hidden; /* Prevent horizontal scrollbar */
+    background-image: url('assets/tumblr_0f5cfab5c93ed931238431cca7a9a0db_34d7ae0d_540.gif');
+    background-size: cover;
+  }
+  
+  .moveImage {
+    width: 100px;
+    height: 100px;
+    background-image: url('your-image-url.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    position: absolute;
+    top: 11%;
+    left: 0;
+    animation: moveBackAndForth 10s linear infinite;
+  }
+
+  #moveImageTwo {
+    top: 24%;
+  }
+
+  #moveImageThree {
+    top: 37%;
+  }
+
+  #moveImageFour {
+    top: 50%;
+  }
+
+  #moveImageFive {
+    top: 63%;
+  }
+
+  #moveImageSix {
+    top: 76%;
+  }
+
+ 
+  @keyframes moveBackAndForth {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(calc(100vw - 100px));
+    }
+  }
+
+  .moveImageTwo {
+    width: 100px;
+    height: 100px;
+    background-image: url('your-image-url.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    position: absolute;
+    top: 70%;
+    left: 0;
+    animation: moveBackAndForthTwo 10s linear infinite;
+  }
+
+  .right-moving {
+    left: 95%;
+    background-image: url('right-image.jpg'); /* Replace with your right image URL */
+    animation-name: moveRightAndLeft;
+  }
+  
+  @keyframes moveRightAndLeft {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(calc(-100vw + 100px));
+    }
+  }
+
+  pre{
+    color: red;
+  }
+     
+      
+      
+      
+      
+      
+      
